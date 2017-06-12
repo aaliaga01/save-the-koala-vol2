@@ -94,9 +94,25 @@
 					<h3 class="titulo-save">EASY HELP</h3>
 					<h4 class="subtitulo-save">Save Koalas From Possible Extinction!</h4>
 					<p>Loss of koala habitat is the major threat facing koalas today. Since white settlement of Australia, roughly 80% of the koala’s habitat has been destroyed and of what remains, most occurs on privately owned land and almost none is protected. </p>
-					<a class="btn btn-default" href="#" role="button">See more</a>
-
+					<!-- Aqui va el boton que hace aparecer el primer modal -->
+					<button type="button" class="btn btn-primary btn-lg boton-verde" data-toggle="modal" data-target="#myModal">Read more</button>
+					<!-- Modal, esta oculto se ve al apretar el boton-->
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  						<div class="modal-dialog" role="document">
+    						<div class="modal-content">
+      							<div class="modal-header">
+        							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        							<h4 class="modal-title" id="myModalLabel">ERROR 400</h4>
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-default boton-verde" data-dismiss="modal">Close</button>
+      							</div>
+    						</div>
+  						</div>
+					</div>
+					<!-- Aqui termina Modal oculto -->
 				</div>
+
 				<div class="col-md-6">
 					<img src="img/cosita.jpg">
 				</div>

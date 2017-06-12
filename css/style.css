@@ -115,13 +115,14 @@ army green: 41521F;
 	color:white;
 }
 
-#save .btn-default{
+#save .boton-verde{
 	background-color: #41521F;
 	border:none;
 	color: white;
+	font-size: 14px;
 }
 
-#save .btn-default:hover{
+#save .boton-verde:hover{
 	background-color: grey;
 }
 
