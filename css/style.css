@@ -42,13 +42,13 @@ army green: 41521F;
 	border: none;
 }
 
-#bienvenida .btn-default{
+#bienvenida .boton-verde{
 	background-color: #41521F;
 	border:none;
 	color: white;
 }
 
-#bienvenida .btn-default:hover{
+#bienvenida .boton-verde:hover{
 	background-color: #A89F68;
 }
 
