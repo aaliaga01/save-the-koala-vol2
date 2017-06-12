@@ -49,7 +49,7 @@ army green: 41521F;
 }
 
 #bienvenida .boton-verde:hover{
-	background-color: #A89F68;
+	color: black;
 }
 
 /*estilos SECCION2*/
@@ -123,7 +123,7 @@ army green: 41521F;
 }
 
 #save .boton-verde:hover{
-	background-color: grey;
+	color: black;
 }
 
 .texto-save{
@@ -211,6 +211,27 @@ width: 100%;
 .seccion-7 .titulo-help{
 	padding-bottom: 1em;
 	color:#41521F;
+}
+
+#donate .boton-verde{
+	background-color: #41521F;
+	border:none;
+	color: white;
+	font-size: 14px;
+}
+
+#donate .boton-verde:hover{
+	color: black;
+}
+
+/*estilos collpase*/
+.estilos-collapse{
+	background-color: #41521F;
+	margin-top: 10px;
+	color: white;
+	border:none;
+	font-weight: lighter;
+	font-size: 12px;
 }
 
 /*seccion FOOTER*/
